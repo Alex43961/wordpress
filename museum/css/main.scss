@@ -1,0 +1,59 @@
+$primary-color-dark: #0097A7;
+$primary-color: #00BCD4;
+$primary-color-light: #B2EBF2;
+$primary-color-text: #FFFFFF;
+$accent-color: #009688;
+$primary-text-color: #212121;
+$secondary-text-color: #757575;
+$divider-color: #BDBDBD;
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 16px;
+    color: $secondary-text-color;
+    background-color: $divider-color;
+
+    .navbar {
+        padding: 0.3rem 5rem;
+        border: solid 1px $primary-text-color;
+
+        .navbar-nav {
+            li.nav-item>a.nav-link {
+                color: $primary-text-color;
+
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+
+            li.active>a.nav-link {
+                color: $primary-color;
+            }
+        }
+    }
+
+    // header
+    .header {
+        background-color: $primary-color-text;
+        margin-top: 1rem;
+        padding: 0.5rem 3rem;
+
+
+        .header-text {
+            
+        }
+
+
+        .museum-img {
+
+
+         
+
+
+        }
+    }
+}

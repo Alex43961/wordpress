@@ -1,0 +1,65 @@
+@media screen and (max-width: 992px) {
+    body {
+        font-size: 20px;
+
+        header {
+            padding: 3rem 0;
+        }
+
+        .popcat {
+            .popcat_title {
+                font-size: 1em;
+            }
+        }
+
+        .form_ordering_an_order {
+            button {
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        .popular_goods {
+            .row {
+                padding-bottom: 0;
+
+                .title {
+                    margin: 0;
+                }
+
+                h4 {
+                    padding: 1rem;
+                    margin: 1rem 3rem;
+                }
+
+
+
+                div {
+                    margin-bottom: 3rem;
+                }
+            }
+        }
+
+        footer {
+            font-size: 0.8em;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        .title {
+
+            &:before,
+            &:after {
+                content: "";
+                display: none;
+            }
+        }
+
+        header {
+            p {
+                font-size: 0.8em;
+            }
+        }
+    }
+}

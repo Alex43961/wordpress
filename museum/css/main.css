@@ -1,0 +1,27 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 16px;
+  color: #757575;
+  background-color: #BDBDBD;
+}
+body .navbar {
+  padding: 0.3rem 5rem;
+  border: solid 1px #212121;
+}
+body .navbar .navbar-nav li.nav-item > a.nav-link {
+  color: #212121;
+}
+body .navbar .navbar-nav li.nav-item > a.nav-link:hover {
+  color: #00BCD4;
+}
+body .navbar .navbar-nav li.active > a.nav-link {
+  color: #00BCD4;
+}
+body .header {
+  background-color: #FFFFFF;
+  margin-top: 1rem;
+  padding: 0.5rem 3rem;
+}/*# sourceMappingURL=main.css.map */
